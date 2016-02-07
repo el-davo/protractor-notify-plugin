@@ -1,0 +1,24 @@
+{
+  "name": "protractor-notify-plugin",
+  "version": "0.0.1",
+  "description": "Notifies users when protractor tests have failed or passed using node-notifier",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-davo/protractor-notify-plugin.git"
+  },
+  "keywords": [
+    "protractor",
+    "notify",
+    "plugin"
+  ],
+  "author": "el-davo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/el-davo/protractor-notify-plugin/issues"
+  },
+  "homepage": "https://github.com/el-davo/protractor-notify-plugin#readme"
+}
