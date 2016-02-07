@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "Notifies users when protractor tests have failed or passed using node-notifier",
   "main": "index.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/el-davo/protractor-notify-plugin.git"
@@ -20,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/el-davo/protractor-notify-plugin/issues"
   },
-  "homepage": "https://github.com/el-davo/protractor-notify-plugin#readme"
+  "homepage": "https://github.com/el-davo/protractor-notify-plugin#readme",
+  "dependencies": {
+    "interpolate": "^0.1.0",
+    "node-notifier": "^4.4.0"
+  }
 }
