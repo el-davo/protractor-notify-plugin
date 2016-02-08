@@ -5,7 +5,7 @@ Notifies users when protractor tests have failed or passed using node-notifier
 
 ```
 npm install --save-dev protractor-notify-plugin
-``
+```
 
 The following code should be placed in the protractor configuration file. More information here - [Protractor plugins](https://github.com/angular/protractor/blob/2.5.1/docs/plugins.md#using-plugins)
 
