@@ -21,16 +21,17 @@ plugins: [{
     },
     success: {
         title: 'Success',
-        message: 'All {passed} test(s) have passed',
+        message: 'All {passed} test(s) have passed on {browser}',
         icon: __dirname + '/some/super/image'
     },
     fail: {
         title: 'Fail',
-        message: '{failed} Test(s) have failed',
+        message: '{failed} Test(s) have failed on {browser}',
         icon: __dirname + '/some/super/image'
     },
     noise: true,    // Default - true
-    wait: false     // Default - false
+    wait: false     // Default - false,
+    notifyOnErrorOnly: true // Default - false
 }],
 ```
 
