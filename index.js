@@ -27,8 +27,8 @@ var NotifyPlugin = function () {
 NotifyPlugin.prototype.postTest = function (passed, info) {
     passed ? this.passCount++ : this.failCount++;
     var me = this;
-    browser.getCapabilities().then(function (cap) {
-        me.browserName = cap.caps_.browserName;
+    browser.getCapabilities().then(function (capabilities) {
+        me.browserName = capabilities.get('browserName');
     });
     return;
 };
